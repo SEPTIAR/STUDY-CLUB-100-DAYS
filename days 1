@@ -1,0 +1,18 @@
+
+package study_club;
+
+public class Study_Club {
+
+   
+   public static void main(String[] args) {
+        String nama = "septiar";
+        String alamat = "mamasa";
+        int umur = 21;
+        
+        System.out.println("NAMA:"+nama);
+        System.out.println("ALAMAT:"+alamat);
+        System.out.println("UMUR:"+umur);
+
+    }
+}
+
