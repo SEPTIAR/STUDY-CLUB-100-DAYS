@@ -1,0 +1,12 @@
+print("Selamat datang di program input biodata!")
+
+nama = input("Masukkan nama Anda: ")
+usia = int(input("Masukkan usia Anda: "))
+alamat = input("Masukkan alamat Anda: ")
+pekerjaan = input("Masukkan pekerjaan Anda: ")
+
+print("\nBiodata Saya:")
+print("Nama:", nama)
+print("Usia:", usia, "tahun")
+print("Alamat:", alamat)
+print("Pekerjaan:", pekerjaan)
