@@ -1,0 +1,23 @@
+print("Input nama buah")
+
+nama = input("Masukkan nama buah : ")
+warna = input("Masukkan warna buah : ")
+jenis_buah = input("Masukkan jenis buah : ")
+
+print("Nama:", nama)
+print("Warna buah:", warna)
+print("Jenis buah:", jenis_buah)
+
+# Klasifikasi buah berdasarkan jenis
+if jenis_buah == "apel":
+    print("Klasifikasi: Buah dengan kulit halus dan daging renyah.")
+elif jenis_buah == "pisang":
+    print("Klasifikasi: Buah berbentuk panjang, kuning, dan lezat.")
+elif jenis_buah == "jeruk":
+    print("Klasifikasi: Buah berwarna oranye dengan rasa asam manis.")
+elif jenis_buah == "mangga":
+    print("Klasifikasi: Buah tropis berkulit keras dan daging manis.")
+elif jenis_buah == "stroberi":
+    print("Klasifikasi: Buah kecil merah dengan biji di permukaannya.")
+else:
+    print("Klasifikasi: Buah tidak dikenal atau tidak terdefinisi.")
