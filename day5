@@ -1,0 +1,8 @@
+angka = int(input("masukkan angkah :"));
+if angka % 3 == 0:
+    print("habis di bagi 3")
+elif angka % 5 == 0:
+    print("habis di bagi 5")
+else :
+    print ("tidak memenuhi")
+    
