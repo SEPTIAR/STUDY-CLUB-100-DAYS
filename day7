@@ -1,0 +1,7 @@
+gaji_pokok = int(input("Silakan menginput gaji pokok: "))
+lama_lembur = int(input("Silakan menginput lama lembur: "))
+tarif_lembur_per_jam = 55000
+gaji_lembur = tarif_lembur_per_jam * lama_lembur
+gaji_sementara = gaji_lembur
+gaji_bersih = gaji_pokok + gaji_sementara
+print("Gaji yang diterima karyawan setiap bulannya sebesar: Rp", gaji_bersih)
