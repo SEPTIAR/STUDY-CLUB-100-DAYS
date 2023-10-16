@@ -1,0 +1,8 @@
+print('#  Program Menghitung Luas Segitiga  #')
+print('===============================================')
+print()
+
+alas = float(input('Input alas segitiga: '))
+tinggi = float(input('Input tinggi segitiga: '))
+
+print('Luas segitiga = ',round(0.5 * alas * tinggi,2))
