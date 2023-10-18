@@ -1,0 +1,16 @@
+# operator penugasan
+nilai = 10
+nilai += 5
+print ("nilai += 5 : ", nilai)
+nilai -= 5
+print ("nilai -= 5 : ", nilai)
+nilai *= 5
+print ("nilai *= 5 : ", nilai)
+nilai /= 5
+print ("nilai /= 5 : ",nilai)
+nilai %= 3
+print ("nilai %= 3 : ", nilai)
+nilai **= 2
+print ("nilai **= 2 : ", nilai)
+nilai //= 3
+print ("nilai //= 3 : ", nilai)
