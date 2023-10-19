@@ -1,0 +1,19 @@
+
+nama = input("masukkan nama: ")
+gaji = int(input("masukkan gaji: "))
+pekerjaan = input("masukkan pekerjaan :")
+if pekerjaan == "Pns":
+    pajak = 0.10 * gaji
+    gaji_bersih = gaji - pajak
+elif pekerjaan == "buruh":
+    tunjangan = 0.10 * gaji
+    gaji_bersih = gaji + tunjangan
+else:
+    pajak = 0.05 * gaji
+    gaji_bersih = gaji - pajak
+
+    print ("Nama :",nama)
+    print ("Pekerjaan :",pekerjaan)
+    print ("Gaji :",gaji)
+    print ("Pajak :",pajak)
+    print ("Gaji bersih:",gaji_bersih)
