@@ -1,0 +1,11 @@
+# Import library untuk input
+pemesanan = int(input("Masukkan jumlah pesanan: "))
+diskon = 0.10
+total_pesanan = 0
+
+if pemesanan >= 200000:
+    total_pesanan = pemesanan - (pemesanan * diskon)
+    print(f"mendapat diskon sebesar 10%, total yang harus dibayar sebesar: {total_pesanan}")
+else:
+    total_pesanan = pemesanan
+    print(f"tidak mendapat diskon, total yang harus dibayar sebesar: {total_pesanan}")
