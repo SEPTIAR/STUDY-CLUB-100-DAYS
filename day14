@@ -1,0 +1,15 @@
+
+penghasilan_bulanan = 13_000_000
+tagihan_rumah = 4_000_000
+biaya_anak1 = 2_000_000
+biaya_anak2 = 1_000_000
+biaya_anak3 = 1_000_000
+maksimal_tabungan = 5_000_000
+harga_pc_gaming = 150_000_000
+# Menghitung sisa uang yang bisa ditabung per bulan
+sisa_uang_bulanan = penghasilan_bulanan - tagihan_rumah - biaya_anak1 - biaya_anak2 - biaya_anak3
+# Menghitung berapa bulan yang dibutuhkan
+bulan_dibutuhkan = harga_pc_gaming / sisa_uang_bulanan
+# Mengonversi bulan ke tahun
+tahun_dibutuhkan = bulan_dibutuhkan / 12
+print("Sambo harus menabung selama", int(tahun_dibutuhkan), "tahun untuk bisa membeli PC gaming.")
