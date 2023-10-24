@@ -1,0 +1,14 @@
+print("menghitung berat badan")
+tinggi = float(input("Masukkan tinggi badan : "))
+berat = float(input("Masukkan berat badan : "))
+indeks = berat / (tinggi * tinggi)
+print("Indeks: ", indeks)
+
+if indeks < 18.5:
+    print("Kurus")
+elif 18.5 <= indeks < 23.9:
+    print("Normal")
+elif 24 <= indeks < 28.9:
+    print("Kelebihan Berat Badan")
+else:
+    print("Sangat Kelebihan Berat Badan")
