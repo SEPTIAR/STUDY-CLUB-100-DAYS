@@ -1,0 +1,27 @@
+def volume():
+    print("Menghitung Volume Bangun Ruang: ")
+    print("1. Kubus")
+    print("2. Balok")
+    print("3. Bola")
+
+    pilihan = input("Pilih bangun ruang (1/2/3): ")
+
+    if pilihan == "1":
+        sisi = float(input("Masukkan panjang sisi kubus: "))
+        volume = sisi ** 3
+        print(f"Volume kubus adalah {volume}")
+    elif pilihan == "2":
+        panjang = float(input("Masukkan panjang balok: "))
+        lebar = float(input("Masukkan lebar balok: "))
+        tinggi = float(input("Masukkan tinggi balok: "))
+        volume = panjang * lebar * tinggi
+        print(f"Volume balok adalah {volume}")
+    elif pilihan == "3":
+        jari_jari = float(input("Masukkan jari-jari bola: "))
+        volume = (4/3) * 3.14 * (jari_jari ** 3)
+        print(f"Volume bola adalah {volume}")
+    else:
+        print("Pilihan tidak valid. Silakan pilih 1, 2, atau 3.")
+
+if __name__ == "__main__":
+    volume()
