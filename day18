@@ -1,0 +1,7 @@
+angka = [35, 10, 20, 34, 9, 16, 28, 19]
+nilai_max = angka[0]
+for item in angka:
+    if item > nilai_max:
+        nilai_max = item
+        
+print("Nilai maksimum:", nilai_max)
