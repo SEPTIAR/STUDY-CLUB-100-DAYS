@@ -1,0 +1,11 @@
+# Input berat badan 
+berat_badan = float(input("Masukkan berat badan (kg): "))
+
+# Memeriksa apakah berat badan melebihi 65 atau tidak
+if berat_badan > 65:
+    status = "over"
+else:
+    status = "normal"
+
+# Menampilkan status berat badan
+print(f"Status berat badan: {status}")
