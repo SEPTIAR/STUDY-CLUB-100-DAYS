@@ -1,0 +1,5 @@
+nilai_awal = 1 
+nilai_akhir = 10   
+
+for angka in range(nilai_awal, nilai_akhir + 2):
+    print("angka :", angka)
