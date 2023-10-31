@@ -1,0 +1,9 @@
+# input dari pengguna
+JenisBuku = input("Masukkan Jenis Buku (Novel/Komik/Majalah): ")
+AreaPengambilan = input("Masukkan Area Pengambilan (1/2/3): ")
+
+# kondisi
+if (JenisBuku == "Novel" and AreaPengambilan == "1") or (JenisBuku == "Komik" and AreaPengambilan == "2") or (JenisBuku == "Majalah" and AreaPengambilan == "3"):
+    print("Benar")
+else:
+    print("Salah")
