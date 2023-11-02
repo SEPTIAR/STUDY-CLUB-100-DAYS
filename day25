@@ -1,0 +1,23 @@
+nama = input("Masukkan nama: ")
+penghasilan_bulanan = float(input("Masukkan penghasilan bulanan (dalam Rupiah): "))
+pekerjaan = input("Masukkan pekerjaan (petani/PNS/lainnya): ")
+pajak = 0
+bantuan = 0
+if penghasilan_bulanan > 10000000:
+    pajak = 0.15
+elif penghasilan_bulanan > 3000000:
+    pajak = 0.05
+if pekerjaan == "petani":
+    bantuan = 1000000
+elif pekerjaan == "PNS":
+    bantuan = 0
+else:
+    bantuan = 200000
+gaji_bersih = penghasilan_bulanan - (penghasilan_bulanan * pajak) + bantuan
+
+print(f"Nama: {nama}")
+print(f"Penghasilan Bulanan: {penghasilan_bulanan} Rupiah")
+print(f"Pekerjaan: {pekerjaan}")
+print(f"Pajak: {pajak * 100}%")
+print(f"Bantuan: {bantuan} Rupiah")
+print(f"Gaji Bersih Per Bulan: {gaji_bersih} Rupiah")
