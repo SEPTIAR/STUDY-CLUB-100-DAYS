@@ -1,0 +1,6 @@
+kelipatan3 = 1
+
+while kelipatan3 <= 50:
+    if kelipatan3 % 3 == 0:
+        print("Kelipatan 3: " + str(kelipatan3))
+    kelipatan3 += 1
