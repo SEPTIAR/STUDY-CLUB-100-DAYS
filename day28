@@ -1,0 +1,4 @@
+for angka in range(10):
+    if angka == 8:
+        break
+    print(angka)
