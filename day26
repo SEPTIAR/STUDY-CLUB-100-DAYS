@@ -1,0 +1,18 @@
+operator = input("Pilih operator penambahan/pengurangan/perkalian/pembagian: ")
+if operator not in ['penambahan', 'pengurangan', 'perkalian', 'pembagian']:
+    print("Operator yang dimasukkan tidak valid.")
+else:
+    number1 = float(input("Masukkan angka pertama: "))
+    number2 = float(input("Masukkan angka kedua: "))
+    if operator == 'penambahan':
+        result = number1 + number2
+    elif operator == 'pengurangan':
+        result = number1 - number2
+    elif operator == 'perkalian':
+        result = number1 * number2
+    elif operator == 'pembagian':
+        if number2 == 0:
+            print("Tidak dapat melakukan pembagian dengan angka nol.")
+        else:
+            result = number1 / number2
+    print(f'Hasil {operator} dari {number1} dan {number2} adalah {result}')
