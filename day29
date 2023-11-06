@@ -1,0 +1,15 @@
+# memasukkan dua bilangan
+a = float(input("Masukkan bilangan pertama (a): "))
+b = float(input("Masukkan bilangan kedua (b): "))
+
+# Tentukan nilai MIN dan MAX
+if a < b:
+    MIN = a
+    MAX = b
+else:
+    MIN = b
+    MAX = a
+
+# Tampilkan hasil
+print(f"Nilai MIN: {MIN}")
+print(f"Nilai MAX: {MAX}")
